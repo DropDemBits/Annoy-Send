@@ -20,13 +20,13 @@ annoy <file> [url] [port] [format] [cooldown]
 + [cooldown] Delay between sending blocks (Default <i>6</i>)
 
 For example, to send example.txt to annoy.michaelreeves.us:2888
-'''
+```
 annoy example.txt annoy.michaelreeves.us 2888
-'''
+```
 OR
-'''
+```
 annoy example.txt
-'''
+```
 
 ## It's not working!
 ### (*nix) I can't execute the program.
