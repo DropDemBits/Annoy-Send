@@ -2,13 +2,25 @@
 A program to send an entire file to a destination
 
 ## Building
+Core prerequisites: cmake
+The executable should appear in the same directory as the build scripts.
 
 ### Building on Unixes (Linux, macOS, etc.)
-Prerequisites: cmake, make
-Run build.sh. The executable should be located in the build folder.
+Prerequisites, make <br />
+Run build-nix.sh.
 
 ### Building on Windows
-TODO
+~~
+#### Using MinGW
+This assumes that the MinGW files are on the PATH. <br />
+Run build-win_mingw.bat.
+
+#### Using Visual Studio
+This assumes that the VSC files are on the PATH, or is being run from the Visual Studio Command Prompt. <br />
+Run build-win_vsc.bat.
+~~
+
+There is no port for Windows yet.
 
 ## Usage
 ```

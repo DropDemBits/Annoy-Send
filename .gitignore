@@ -30,6 +30,7 @@
 
 # Executables
 annoy
+annoy.exe
 
 # Debug files
 *.dSYM/
@@ -45,4 +46,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-build
+cmake-out
