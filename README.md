@@ -3,10 +3,10 @@ A program to send an entire file to a destination
 
 ## Building
 
-## Building on *nixes
+### Building on *nixes
 Run build.sh. The executable should be located in the build folder.
 
-## Building on Windows
+### Building on Windows
 TODO
 
 ## Usage
