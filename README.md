@@ -3,7 +3,8 @@ A program to send an entire file to a destination
 
 ## Building
 
-### Building on *nixes
+### Building on Unixes (Linux, macOS, etc.)
+Prerequisites: cmake, make
 Run build.sh. The executable should be located in the build folder.
 
 ### Building on Windows
