@@ -84,7 +84,7 @@ int main(int argc, const char** argv)
 #endif
     int status, bytes_sent, bytes_recieved, bytes_read, cooldown = 6;
     char *url = URL, *format = GET_FORMAT, *port = PORT;
-    const char* pre_payload = "GET /annoy?message=Prepare%20for%20the%20payload%20in%203,%202,%201... HTTP/1.0\r\n\r\n";
+    const char* pre_payload = "GET /annoy?message=%20 HTTP/1.0\r\n\r\n";
 
     if( argc > MAX_ARGC || argc == 1 ) {
         printUsage();
