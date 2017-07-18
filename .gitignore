@@ -29,7 +29,7 @@
 *.dylib
 
 # Executables
-annoy*
+annoy
 
 # Debug files
 *.dSYM/
