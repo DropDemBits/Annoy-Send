@@ -30,7 +30,8 @@ annoy example.txt
 
 ## It's not working!
 ### (*nix) I can't execute the program.
-Run chmod +x annoy
+Try doing build/annoy
+If that doesn't work, then try running chmod +x build/annoy, then run build/annoy
 
 ### My problem isn't on here.
 This <i>might</i> be a bug. Submit an issue on this repository.
